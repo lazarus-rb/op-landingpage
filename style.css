@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.container {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15vw;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    padding: 0px 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.container-subhead {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.subhead-text {
+    flex: 1;
+    flex-direction: column;
+}
+
+
+
+.subhead-text button {
+    margin: 10px 0px;
+    padding: 8px 30px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.subhead-img {
+    flex: 1;
+    display: flex;
+    background-color: #6d737c;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20vw;
+
+}
+
+.container-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-image {
+    padding: 100px 100px;
+    margin: 10px;
+    /* background-color: black; */
+    border-color:#3882F6;
+    border-width: thick;
+    border-radius: 5px;
+}
+
+.carousel-text {
+    align-
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
