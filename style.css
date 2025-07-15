@@ -1,5 +1,4 @@
 body {
-    display: flex;
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -40,8 +39,9 @@ h2 {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 a {
@@ -54,10 +54,13 @@ a {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-subhead {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 25px;
     flex: 1;
     justify-content: space-between;
@@ -102,7 +105,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20vw;
+    /* padding: 0 20vw; */
     gap: 50px;
 
 }
@@ -116,19 +119,21 @@ ul {
 .info-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding-bottom: 120px;
 }
 
 .info {
+    width: 200px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
 .info-image {
-    padding: 6vh 5vw;
-    margin: 10px;
-    /* background-color: black; */
+    padding:80px 80px;
     border:solid 3px #3882F6;
     border-radius: 10px;
 }
@@ -146,7 +151,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 120px 350px;
+    padding: 120px 20vw;
 }
 
 .testimonial {
@@ -175,7 +180,8 @@ ul {
 
 .mod {
     display: flex;
-    gap: 100px;
+    flex-wrap: wrap;
+    /* gap: 100px; */
     width: 50%;
     padding: 50px 50px;
     background-color: #3882F6;
