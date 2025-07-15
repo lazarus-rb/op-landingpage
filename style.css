@@ -20,7 +20,7 @@ h2 {
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb
+    color: #E5E7EB
 }
 
 .container {
@@ -58,6 +58,7 @@ ul {
 
 .container-subhead {
     display: flex;
+    column-gap: 25px;
     flex: 1;
     justify-content: space-between;
     margin: 100px 0;
@@ -67,8 +68,6 @@ ul {
     flex: 1;
     flex-direction: column;
 }
-
-
 
 .subhead-text button {
     margin: 10px 0px;
@@ -95,42 +94,118 @@ ul {
     flex: 1;
 }
 
-.container-images {
+
+
+
+.container-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 20vw;
+    gap: 50px;
 
 }
 
-.container-carousel {
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-wrapper {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    padding-bottom: 120px;
 }
 
-.carousel {
+.info {
     display: flex;
     flex-direction: column;
 }
 
-.carousel-image {
-    padding: 100px 100px;
+.info-image {
+    padding: 6vh 5vw;
     margin: 10px;
     /* background-color: black; */
-    border-color:#3882F6;
-    border-width: thick;
+    border:solid 3px #3882F6;
+    border-radius: 10px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937
+}
+
+
+
+
+.container-testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 350px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937
+}
+
+.testimonial-author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+.container-mod {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 100px;
+}
+
+.mod {
+    display: flex;
+    gap: 100px;
+    width: 50%;
+    padding: 50px 50px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mod-text h2,
+.mod-text .subtext {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.mod button {
+    margin: 10px 0px;
+    padding: 8px 30px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     border-radius: 5px;
 }
 
-.carousel-text {
-    align-
-}
-
-
 
 .footer {
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 25px 0;
 }
